@@ -1,5 +1,2 @@
-name = input("What is your name? ")
-if name == "Rion":
-    print("welcome back, Rion!")
-else:
-    print("Hello, " + name + "!")
+for i in range(5):
+    print(str(i+1) + "回目: Hello!")
